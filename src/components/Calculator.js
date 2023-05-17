@@ -38,7 +38,7 @@ const Calculator = () => {
         <button id='minus' onClick={() => handleClick('-')}>-</button>
         <button id='multiply' onClick={() => handleClick('*')}>*</button>
         <button id='division' onClick={() => handleClick('/')}>/</button>
-        <button id='result' onClick={calculateResult}>=</button>
+        <button id='equal' onClick={calculateResult}>=</button>
         <button id='clear' onClick={clearResult}>Clear</button>
     
 
